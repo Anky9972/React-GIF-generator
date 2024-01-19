@@ -2,8 +2,8 @@ import { useState, useEffect } from "react";
 import toast from "react-hot-toast";
 import { Hourglass } from "react-loader-spinner";
 const randomApi =
-  "https://api.giphy.com/v1/gifs/random?api_key=pg2cGN8OxNc8xIv2TKA5N3QdKLIes2Xh&tag=&rating=g";
-const tagApi = `https://api.giphy.com/v1/gifs/random?api_key=pg2cGN8OxNc8xIv2TKA5N3QdKLIes2Xh&rating=g`;
+  "https://api.giphy.com/v1/gifs/random?api_key=&tag=&rating=g";
+const tagApi = `https://api.giphy.com/v1/gifs/random?api_key=&rating=g`;
 
 function useGif() {
   const [gifdata, setgifData] = useState();
